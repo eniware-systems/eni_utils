@@ -1,0 +1,19 @@
+name: eni_utils
+description: "Eniware utility package"
+version: 2.0.1
+homepage: https://eniware-systems.de
+publish_to: https://gitea.eniware-systems.de/api/packages/eni-flutter/pub
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.32.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  logger: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.2
